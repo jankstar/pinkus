@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "pinkusDB": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "mongodb://127.0.0.1:27017/pinkus",
+    "database": "pinkus",
+    "password": "",
+    "name": "pinkusDB",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
