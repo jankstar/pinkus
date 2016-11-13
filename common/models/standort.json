@@ -1,0 +1,37 @@
+{
+  "name": "Standort",
+  "plural": "Standorte",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "ort": {
+      "type": "string"
+    },
+    "plz": {
+      "type": "number"
+    },
+    "strasse": {
+      "type": "string"
+    },
+    "telefon1": {
+      "type": "string"
+    },
+    "telefon2": {
+      "type": "string"
+    },
+    "bemerkung": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

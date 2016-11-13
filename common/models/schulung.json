@@ -1,0 +1,40 @@
+{
+  "name": "Schulung",
+  "plural": "Schulungen",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "version": {
+      "type": "number"
+    },
+    "beschreibung": {
+      "type": "string"
+    },
+    "start": {
+      "type": "date"
+    },
+    "ende": {
+      "type": "date"
+    },
+    "status": {
+      "type": [
+        "number"
+      ],
+      "required": true,
+      "default": [
+        1
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

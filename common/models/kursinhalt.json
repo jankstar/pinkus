@@ -1,0 +1,37 @@
+{
+  "name": "Kursinhalt",
+  "plural": "Kursinhalte",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "beschreibung": {
+      "type": "string"
+    },
+    "unterlagen": {
+      "type": "string"
+    },
+    "termin": {
+      "type": "date"
+    },
+    "status": {
+      "type": [
+        "number"
+      ],
+      "required": true,
+      "default": [
+        1
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Kunde",
+  "plural": "Kunden",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": [
+        "number"
+      ],
+      "required": true,
+      "default": [
+        1
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "id_standort": {
+      "type": "hasMany",
+      "model": "Standort",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

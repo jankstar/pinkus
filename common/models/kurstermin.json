@@ -1,0 +1,30 @@
+{
+  "name": "Kurstermin",
+  "plural": "Kurstermine",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "von": {
+      "type": "date"
+    },
+    "bis": {
+      "type": "date"
+    },
+    "status": {
+      "type": [
+        "number"
+      ],
+      "required": true,
+      "default": [
+        1
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

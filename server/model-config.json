@@ -1,0 +1,75 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "pinkusDB"
+  },
+  "AccessToken": {
+    "dataSource": "pinkusDB",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "pinkusDB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "pinkusDB",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "pinkusDB",
+    "public": false
+  },
+  "Kunde": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Standort": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Raum": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Schulung": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Kursinhalt": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Dozent": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Teilnehmer": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Teilnehmergruppe": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Kurs": {
+    "dataSource": "pinkusDB",
+    "public": true
+  },
+  "Kurstermin": {
+    "dataSource": "pinkusDB",
+    "public": true
+  }
+}

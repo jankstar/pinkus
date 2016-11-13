@@ -1,0 +1,21 @@
+{
+  "name": "Teilnehmer",
+  "plural": "Teilnehmer",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "von": {
+      "type": "date"
+    },
+    "bis": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
