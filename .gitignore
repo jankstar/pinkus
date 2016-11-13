@@ -29,6 +29,7 @@ changes_preview.js
 fioriHtmlRunner.html
 .*/fioriHtmlRunner.html
 mock_preview_sapui5.html
+<<<<<<< HEAD
 .*/mock_preview_sapui5.html
 sap-ui-cachebuster-info.json
 extended_runnable_file.html
@@ -40,4 +41,6 @@ changes_preview.js
 fioriHtmlRunner.html
 .*/fioriHtmlRunner.html
 mock_preview_sapui5.html
+=======
+>>>>>>> 464d7a1fba7916789f69da5b8fe231589c48198c
 .*/mock_preview_sapui5.html

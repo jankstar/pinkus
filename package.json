@@ -18,7 +18,11 @@
     "loopback-datasource-juggler": "^2.39.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^1.0.1",
+<<<<<<< HEAD
     "n-odata-server": "^0.3.14"
+=======
+	"n-odata-server": "^0.3.14"
+>>>>>>> 464d7a1fba7916789f69da5b8fe231589c48198c
   },
   "devDependencies": {
     "eslint": "^2.13.1",
