@@ -22,13 +22,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "id_standort": {
-      "type": "hasMany",
-      "model": "Standort",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [
     {
       "accessType": "*",
