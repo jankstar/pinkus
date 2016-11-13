@@ -35,7 +35,6 @@
   "Kunde": {
     "dataSource": "pinkusDB",
     "public": true
-<<<<<<< HEAD
   },
   "Standort": {
     "dataSource": "pinkusDB",
@@ -72,7 +71,5 @@
   "Kurstermin": {
     "dataSource": "pinkusDB",
     "public": true
-=======
->>>>>>> 464d7a1fba7916789f69da5b8fe231589c48198c
   }
 }

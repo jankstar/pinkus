@@ -12,7 +12,6 @@
       "required": true
     },
     "status": {
-<<<<<<< HEAD
       "type": [
         "number"
       ],
@@ -30,14 +29,6 @@
       "foreignKey": ""
     }
   },
-=======
-      "type": "string",
-      "required": false
-    }
-  },
-  "validations": [],
-  "relations": {},
->>>>>>> 464d7a1fba7916789f69da5b8fe231589c48198c
   "acls": [
     {
       "accessType": "*",
