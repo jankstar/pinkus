@@ -16,9 +16,9 @@
     "loopback-component-explorer": "^2.4.0",
     "loopback-connector-mongodb": "^1.17.0",
     "loopback-datasource-juggler": "^2.39.0",
+    "n-odata-server": "^0.3.15",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^1.0.1",
-    "n-odata-server": "^0.3.14"
+    "strong-error-handler": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^2.13.1",

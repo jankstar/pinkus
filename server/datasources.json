@@ -3,6 +3,7 @@
     "name": "db",
     "connector": "memory"
   },
+  
   "pinkusDB": {
     "host": "127.0.0.1",
     "port": 27017,
@@ -12,5 +13,25 @@
     "name": "pinkusDB",
     "user": "",
     "connector": "mongodb"
+  },
+  
+  "emailDs": {
+    "name": "emailDs",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "jankstar.berlin@gmail.com",
+          "pass": "Gambler-2011"
+        }
+      }
+    ]
   }
 }

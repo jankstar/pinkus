@@ -21,13 +21,9 @@
       "type": "date"
     },
     "status": {
-      "type": [
-        "number"
-      ],
+      "type": "number",
       "required": true,
-      "default": [
-        1
-      ]
+      "default": 1
     }
   },
   "validations": [],

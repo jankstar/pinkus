@@ -1,6 +1,6 @@
 {
   "name": "Raum",
-  "plural": "Räume",
+  "plural": "Raeume",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

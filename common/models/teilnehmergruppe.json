@@ -1,6 +1,6 @@
 {
   "name": "Teilnehmergruppe",
-  "plural": "Teilnehmergruppe",
+  "plural": "Teilnehmergruppen",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

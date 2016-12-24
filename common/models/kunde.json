@@ -9,18 +9,15 @@
   "properties": {
     "name": {
       "type": "string",
-      "required": true
-    },
-    "status": {
-      "type": [
-        "number"
-      ],
       "required": true,
-      "default": [
-        1
-      ]
-    }
-  },
+      "description": "Kundenname"
+   },
+    "status": {
+      "type": "number",
+      "required": true,
+      "default":  1,
+      "description": "Status"
+  }},
   "validations": [],
   "relations": {},
   "acls": [{

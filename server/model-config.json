@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "pinkusDB"
+    "dataSource": "pinkusDB",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "pinkusDB",
@@ -31,6 +32,16 @@
   "Role": {
     "dataSource": "pinkusDB",
     "public": false
+  },
+    "Email": {
+    "dataSource": "emailDs"
+  },
+  "user": {
+    "dataSource": "pinkusDB",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   },
   "Kunde": {
     "dataSource": "pinkusDB",
