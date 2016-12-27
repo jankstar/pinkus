@@ -27,7 +27,7 @@
         "tls": {
           "rejectUnauthorized": false
         },
-        "auth": {
+        "auth": { // change hier
           "user": "xx@gmail.com",
           "pass": "xx"
         }
