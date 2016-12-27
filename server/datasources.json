@@ -1,9 +1,11 @@
 {
+  // memory DB
   "db": {
     "name": "db",
     "connector": "memory"
   },
   
+  // mongoDB
   "pinkusDB": {
     "host": "127.0.0.1",
     "port": 27017,
@@ -15,6 +17,7 @@
     "connector": "mongodb"
   },
   
+  //eMail access
   "emailDs": {
     "name": "emailDs",
     "connector": "mail",
