@@ -1,3 +1,4 @@
+jQuery.sap.require("sap.ui.core.IconPool");
 sap.ui.jsview("pinkus.client", {
     /**
      * Specifies the Controller belonging to this View. In the case that it is
@@ -20,7 +21,7 @@ sap.ui.jsview("pinkus.client", {
         // -------------------------------------------------//
         // Create an instance of the table control
         var oTable = new sap.ui.table.Table({
-            id: "client.view",
+            id: "pinkus.client.view",
             title: "Kundenliste",
             visibleRowCount: 7,
             firstVisibleRow: 3,
@@ -34,7 +35,6 @@ sap.ui.jsview("pinkus.client", {
         var oStatusLabel = new sap.ui.commons.Label({
             text: 'Status'
         });
-        jQuery.sap.require("sap.ui.core.IconPool");
         var oStatusListbox = new sap.ui.commons.ListBox("stautsListbox", {
             displaySecondaryValues: true,
             displayIcons: true,
@@ -64,8 +64,8 @@ sap.ui.jsview("pinkus.client", {
             value: "",
             "association:listBox": oStatusListbox,
             change: function (oEvent) {
-                var oTable = sap.ui.getCore().byId("client.view");
-                var oColumn = sap.ui.getCore().byId("client.view.table.column.status");
+                var oTable = sap.ui.getCore().byId("pinkus.client.view");
+                var oColumn = sap.ui.getCore().byId("pinkus.client.view.table.column.status");
                 oTable.filter(oColumn, oEvent.mParameters.newValue);
             }
         });
